@@ -36,7 +36,7 @@ const isMobile = useMobile()
                         Fale Conosco
                     </a>
                     <a href="#">
-                        Trasparência
+                        Transparência
                     </a>
                 </nav>
 
