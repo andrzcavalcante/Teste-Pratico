@@ -6,10 +6,9 @@
     <header class="">
         <div class="container">
             <div>
-                <img src="./assets/logoSenai.svg" alt="">
-                <nav>
-                    <h3>Menu</h3>
-                </nav>
+                <img src="@/assets/logoSenai.png" alt="">
+                <span class="material-icons icon-size">menu</span>
+
             </div>
         </div>
 
@@ -43,6 +42,9 @@ header {
         margin: 0 auto;
     }
 
-    nav {}
+    .icon-size{
+        font-size: 36px;
+    }
+   
 }
 </style>
