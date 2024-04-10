@@ -1,0 +1,163 @@
+section {
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .texts {
+        font-size: 1rem;
+        font-weight: 100;
+        text-align: left;
+    }
+
+    .department_list {
+        list-style-type: none;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        .department {
+            padding: 1rem;
+            list-style-type: none;
+            background-color: #F8F8F8;
+            display: flex;
+            gap: 2rem;
+
+            border-radius: .8rem;
+
+            img {
+                width: 100px;
+                height: 163px;
+            }
+
+            button {
+                border: none;
+                padding: .3rem 1.5rem;
+                background-color: #2A549F;
+                color: #ffffff;
+                border-radius: .5rem;
+                font-weight: 100;
+            }
+
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    @media (min-width: 750px) {
+
+        .department_aside {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: space-between;
+
+            max-height: 1230px;
+
+            .container_department{
+                width: 50%;
+            }
+
+            aside {
+                display: flex;
+                flex-direction: column;
+                gap: 2.5rem;
+                width: 30%;
+                div{
+                    background-color: #EDEDED;
+                    padding: .5rem 1rem;
+                   
+                    border-radius: 12px;
+
+                    h2{
+                        font-size: 1.2rem;
+                    }
+
+                    ul{
+                        list-style-type: none;
+                        padding-left: 0;
+                        display: flex;
+                        flex-direction: column;
+                        gap: .15rem;
+
+                        li{
+                            a{
+                                text-decoration: none;
+                                color: #001834;
+                                font-size: .8rem;
+                            }
+
+                            a:hover{
+                                color: #2A549F;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        .container {
+            width: 75%;
+            margin: 0 auto;
+            height: 100%;
+        }
+
+        .texts {
+            width: 55%;
+        }
+
+        .department_list {
+            width: 95%;
+            .department {
+                width: 100%;
+                padding: 1rem;
+                background-color: #F8F8F8;
+
+                gap: 2rem;
+
+                img {
+                    max-width: 120px;
+                    height: 140px;
+                }
+
+                button {
+                    border: none;
+                    padding: .3rem 1.5rem;
+                    background-color: #2A549F;
+                    color: #ffffff;
+                    border-radius: .5rem;
+                    font-weight: 100;
+                }
+            }
+        }
+
+
+
+    }
+
+    @media (min-width: 850px) {
+
+        .department_aside {
+
+            max-height: 1130px;
+            
+        }
+
+
+
+    }
+
+
+}
