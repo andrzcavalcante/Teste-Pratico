@@ -41,5 +41,13 @@ section {
         justify-content: center;
     }
 
+    @media (min-width: 750px) {
+        .container {
+            width: 85%;
+            margin: 0 auto;
+            height: 100%;
+        }
+    }
+
 }
 </style>

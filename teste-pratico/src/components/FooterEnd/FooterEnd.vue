@@ -6,8 +6,7 @@
     <footer>
         <div class="container">
             <span>
-                <h2>Senai</h2>
-                <p>PELO FUTURO DO TRABALHO</p>
+                <img src="@/assets/logo-senai-branca.png" alt="">
             </span>
         </div>
         <!-- <img src="" alt=""> -->
@@ -16,7 +15,7 @@
 
 <style scoped lang="scss">
 footer {
-    width: 100%;
+   padding: 1.5rem;
     background-color: #014898;
 
     color: white;
